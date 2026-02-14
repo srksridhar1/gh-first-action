@@ -1,0 +1,11 @@
+name: First-workflow
+on: workflow_dispatch
+Jobs:
+  first-job:
+    runs_on: ubuntu-latest
+      Steps:
+        -name Print Greeting
+          run: echo "AUtomation is way Fwd"
+        -name Print Good bye
+          run: echo "Have a nice day"
+    
