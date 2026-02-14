@@ -3,9 +3,9 @@ on: workflow_dispatch
 jobs:
   first-job:
     runs_on: ubuntu-latest
-      steps:
-        -name Print Greeting
-          run: echo "AUtomation is way Fwd"
-        -name Print Good bye
-          run: echo "Have a nice day"
+    steps:
+      -name Print Greeting
+       run: echo "AUtomation is way Fwd"
+      -name Print Good bye
+       run: echo "Have a nice day"
     
